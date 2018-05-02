@@ -10,6 +10,13 @@ namespace WordUnscrambler
     {
         static void Main(string[] args)
         {
+            var contWordUnscramle = true;
+            do
+            {
+                Console.WriteLine("Enter the option - F for File and M for Manual ");
+                
+            } while (contWordUnscramle);
+
         }
     }
 }
